@@ -56,7 +56,8 @@ GrabCut Scheme
 ![](_assets/grabcut_scheme.jpg)
 
 ### Foreground substitution : Pixellib and DeepLabv3+ pretrained model
-
+DeepLab is a state-of-art deep learning model for semantic image segmentation, where the goal is to assign semantic labels (e.g., person, dog, cat and so on) to every pixel in the input image/video. We rely on the deeplabv3+ models trained on pascalvoc dataset for background substitution. 
+![](https://miro.medium.com/max/2000/1*nFJ_GqK1D3zKCRgtnRfrcw.png)
 
 ## 3. Speed/Resource consumption.
 
