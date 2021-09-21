@@ -59,6 +59,15 @@ GrabCut Scheme
 DeepLab is a state-of-art deep learning model for semantic image segmentation, where the goal is to assign semantic labels (e.g., person, dog, cat and so on) to every pixel in the input image/video. We rely on the deeplabv3+ models trained on pascalvoc dataset for background substitution. 
 ![](https://miro.medium.com/max/2000/1*nFJ_GqK1D3zKCRgtnRfrcw.png)
 
+We imported pixellib and from pixellib we imported in the class alter_bg. Instance of the class is created and and within the class we added a parameter model_type and set it to pb. we finally loaded the deeplabv3+ model. PixelLib supports two deeplabv3+ models, keras and tensorflow model. The keras model is extracted from the tensorflow model's checkpoint. The tensorflow model performs better than the keras model. We will make use of  ![tensorflow model](https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.1/xception_pascalvoc.pb)
+
+There are three parameters that control the degree in which the background is blurred.
+
+low: When it is set to true the background is blurred slightly.
+
+moderate: When it is set to true the background is moderately blurred.
+
+extreme: When it is set to true the background is deeply blurred
 ## 3. Speed/Resource consumption.
 
 Time/resource consumption is related to two points:
