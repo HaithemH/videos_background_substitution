@@ -1,6 +1,6 @@
 # Video Background Substitution
 
-The program allows to specify video files (local paths to the data) through the config.INI configuration file.
+The program allows to specify parameters (video files, background extraction algorithms, algo parameters)  through the 'config.json' configuration file.
 
 Videos should have non-moving backgrounds, meaning that the camera used to shoot the videos is fixed on the wall or somewhere else.
 
