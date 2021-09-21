@@ -2,7 +2,7 @@
 
 The program allows to specify video files (local paths to the data) through the config.INI configuration file.
 
-Please notice that the videos should have non-moving backgrounds, meaning that the camera used to shoot the videos is fixed on the wall or somewhere else.
+Videos should have non-moving backgrounds, meaning that the camera used to shoot the videos is fixed on the wall or somewhere else.
 
 The program consists of the following steps:
 
@@ -71,12 +71,15 @@ extreme: When it is set to true the background is deeply blurred
 ## 3. Speed/Resource consumption.
 
 Time/resource consumption is related to two points:
-
+**Grubcat**
 * The number of iterations of the GrabCat algorithm- default=1. This controlled by parameter "grubcut_iter" in the configuration file.
 * The size of the rectagle. A large rectangle slowdowns of the algorithm. This controlled by parameter "grubcut_ROI" in the configuration file.
+**DeepLabv3**
+* frames_per_second: this is the parameter to set the number of frames per second for the output video file. 
 
+output_video_name: the saved video. The output video will be saved in your current working directory.
 
-
+detect (optional): this is the parameter that detects a particular object and filters out other detectons. It is set to detect person in the video.
 ## 4. Usage
 ### Local 
 1. Make sure you have installed  all [required](https://github.com/HaithemH/videos_background_replacement/blob/master/requirements.txt) packages.
