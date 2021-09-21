@@ -1,0 +1,5 @@
+numpy
+configparser==4.0.2
+opencv-python
+pixellib
+sklearn

@@ -1,0 +1,3 @@
+PascalVoc model can download from here :
+https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.1/xception_pascalvoc.pb
+put the model under /models

@@ -1,0 +1,28 @@
+{
+    "paths": {
+        "INPUT_PATH": "/content/gdrive/MyDrive/videos_background_replacement/inputs/",
+        "OUTPUT_PATH": "/content/gdrive/MyDrive/videos_background_replacement/outputs/",
+        "BACKGROUND_PATH": "/content/gdrive/MyDrive/videos_background_replacement/background/",
+        "MODEL": "/content/gdrive/MyDrive/videos_background_replacement/models/"
+
+    },
+    "background": {
+        "backg_video_name": "pedestrians_background.avi"
+    },
+    "nb_frames": {
+        "number_frames": 25
+    },
+    "bg_algo": { 
+        "bg_algo": "median"
+    },
+    "mo_fg_algo": { 
+        "mo_fg_algo": "mog"
+    },
+    "grubcut_iter": { 
+        "grubcut_iter": 1
+    },
+    "grubcut_ROI": { 
+        "grubcut_ROI": [200, 50, 300, 400]
+    }
+    
+    }
