@@ -67,9 +67,11 @@ The parameter detect (optional): this is the parameter that detects a particular
 ## 3. Speed/Resource consumption.
 
 Time/resource consumption is related to two points:
+
 **Grubcat**
 * The number of iterations of the GrabCat algorithm- default=1. This controlled by parameter "grubcut_iter" in the configuration file.
 * The size of the rectagle. A large rectangle slowdowns of the algorithm. This controlled by parameter "grubcut_ROI" in the configuration file.
+
 **DeepLabv3**
 * frames_per_second: this is the parameter to set the number of frames per second for the output video file. 
 
