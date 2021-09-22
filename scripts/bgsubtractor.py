@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
 
   # Read json config file
-  with open('config.json', 'r') as config_file:
+  with open('./scripts/config.json', 'r') as config_file:
     config = json.load(config_file)
 	
 	# Get necessary information from config file
