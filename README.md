@@ -62,13 +62,8 @@ DeepLab is a state-of-art deep learning model for semantic image segmentation, w
 
 We imported pixellib and from pixellib we imported in the class alter_bg. Instance of the class is created and and within the class we added a parameter model_type and set it to pb. we finally loaded the deeplabv3+ model. PixelLib supports two deeplabv3+ models, keras and tensorflow model. The keras model is extracted from the tensorflow model's checkpoint. The tensorflow model performs better than the keras model. We will make use of  ![tensorflow model](https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.1/xception_pascalvoc.pb)
 
-There are three parameters that control the degree in which the background is blurred.
+The parameter detect (optional): this is the parameter that detects a particular object and filters out other detectons. It is set to detect person in the video.
 
-low: When it is set to true the background is blurred slightly.
-
-moderate: When it is set to true the background is moderately blurred.
-
-extreme: When it is set to true the background is deeply blurred
 ## 3. Speed/Resource consumption.
 
 Time/resource consumption is related to two points:
@@ -78,9 +73,6 @@ Time/resource consumption is related to two points:
 **DeepLabv3**
 * frames_per_second: this is the parameter to set the number of frames per second for the output video file. 
 
-output_video_name: the saved video. The output video will be saved in your current working directory.
-
-detect (optional): this is the parameter that detects a particular object and filters out other detectons. It is set to detect person in the video.
 ## 4. Usage
 ### Local 
 1. Make sure you have installed  all [required](https://github.com/HaithemH/videos_background_replacement/blob/master/requirements.txt) packages.
@@ -105,3 +97,4 @@ detect (optional): this is the parameter that detects a particular object and fi
 https://medium.com/clustering-with-gaussian-mixture-model/clustering-with-gaussian-mixture-model-c695b6cd60da
 https://docs.opencv.org/3.4.15/d1/dc5/tutorial_background_subtraction.html
 https://www.geeksforgeeks.org/python-foreground-extraction-in-an-image-using-grabcut-algorithm/
+https://github.com/VainF/DeepLabV3Plus-Pytorch
