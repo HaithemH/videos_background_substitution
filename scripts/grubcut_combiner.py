@@ -102,7 +102,7 @@ def main():
   background = bgsubtractor.extract_background(background_path,nb_frames,bg_algo)
   
   for file in os.listdir(INPUT_PATH):
-    if file.endswith('.avi') or file.endswith('.mp4')::
+    if file.endswith('.avi') or file.endswith('.mp4'):
       path=os.path.join(INPUT_PATH, file)
       print("Precessing.................:",path)
       Combiner(path, background, OUTPUT_PATH, grubcut_iter,grubcut_ROI)
