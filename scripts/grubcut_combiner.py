@@ -83,7 +83,7 @@ def main():
 
 # Read config file
 	
-  with open('config.json', 'r') as config_file:
+  with open('./scripts/config.json', 'r') as config_file:
     config = json.load(config_file)
 	
 # Parameters: get necessary information from config file
