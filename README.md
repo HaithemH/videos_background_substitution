@@ -60,7 +60,7 @@ GrabCut Scheme
 DeepLab is a state-of-art deep learning model for semantic image segmentation, where the goal is to assign semantic labels (e.g., person, dog, cat and so on) to every pixel in the input image/video. We rely on the deeplabv3+ models trained on pascalvoc dataset for background substitution. 
 ![](https://miro.medium.com/max/2000/1*nFJ_GqK1D3zKCRgtnRfrcw.png)
 
-We imported pixellib and from pixellib we imported in the class alter_bg. Instance of the class is created and and within the class we added a parameter model_type and set it to pb. we finally loaded the deeplabv3+ model. PixelLib supports two deeplabv3+ models, keras and tensorflow model. The keras model is extracted from the tensorflow model's checkpoint. The tensorflow model performs better than the keras model. We will make use of  ![tensorflow model](https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.1/xception_pascalvoc.pb)
+We imported pixellib and from pixellib we imported in the class alter_bg. Instance of the class is created and and within the class we added a parameter model_type and set it to pb. we finally loaded the deeplabv3+ model. PixelLib supports two deeplabv3+ models, keras and tensorflow model. The keras model is extracted from the tensorflow model's checkpoint. The tensorflow model performs better than the keras model. We will make use of  [tensorflow model](https://github.com/ayoolaolafenwa/PixelLib/releases/download/1.1/xception_pascalvoc.pb)
 
 The parameter detect (optional): this is the parameter that detects a particular object and filters out other detectons. It is set to detect person in the video.
 
@@ -75,14 +75,14 @@ Time/resource consumption is related to two points:
 
 ## 4. Usage
 ### Local 
-1. Make sure you have installed  all ![required](https://github.com/HaithemH/videos_background_replacement/blob/master/requirements.txt) packages.
+1. Make sure you have installed  all [required](https://github.com/HaithemH/videos_background_replacement/blob/master/requirements.txt) packages.
           run `pip install -r requirements.txt`.
 3. Go to scripts directory.
-4. Specify correct paths in ![config](https://github.com/HaithemH/videos_background_replacement/blob/master/config.json) file.
+4. Specify correct paths in [config](https://github.com/HaithemH/videos_background_replacement/blob/master/config.json) file.
 5. To subtitute the background with **GrubCat** run: `python grubcutcombiner.py`.
 6. To extract moving objects/forground run: `python mo_subtractor.py`.
 ### Colab
-The colab notebook is ['here'](https://github.com/HaithemH/videos_background_substitution/blob/master/Video_Background_Substitution.ipynb)
+The colab notebook is [here](https://github.com/HaithemH/videos_background_substitution/blob/master/Video_Background_Substitution.ipynb)
 ### Docker container
 
 
