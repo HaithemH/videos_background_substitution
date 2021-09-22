@@ -1,13 +1,14 @@
 # Video Background Substitution
 
-The program allows to specify parameters (video files, background extraction algorithms, algo parameters)  through the 'config.json' configuration file.
+This repo demonstrates the background replacement with another video background. The process consists in extracting the background from  a video, then extract the moving objects from videos we want to substitute the background. The extracted background is combined with moving objects. Parameters (video files, background extraction algorithms, algo parameters)  are specified through the 'config.json' configuration file.
 
 Videos should have non-moving backgrounds, meaning that the camera used to shoot the videos is fixed on the wall or somewhere else.
 
 The program consists of the following steps:
 
     1. Background extraction.
-    2. Foreground (moving object) extraction and change of background.
+    2. Foreground extraction 
+    3. Replace the background.
 
 # 1. Background subtraction.
 ## Median for Background Estimation
