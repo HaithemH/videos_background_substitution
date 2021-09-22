@@ -85,15 +85,19 @@ Time/resource consumption is related to two points:
 6. To extract moving objects/forground run: `python mo_subtractor.py`.
 ### Colab
 The colab notebook is [here](https://github.com/HaithemH/videos_background_substitution/blob/master/Video_Background_Substitution.ipynb)
-### Docker container
+### local Docker container:
      **Local container**:
     .- Clone the repo:  $git clone https://github.com/HaithemH/videos_background_substitution 
     .- Build image :    $sudo docker build -t bgeditor . 
     .- Run the image :  $sudo docker run -it bgeditor
+    .- Run scripts :    Change video paths first.
+
      **Cloud container on Colab**:
      See the docker container section in the notebook.
+### [Katacoda] Docker Playground:
+    https://www.katacoda.com/courses/docker/playground#
 
-## Running Environment
+## Running Environment to prepare the repo:
 * Google Colab
 
 ### References:
