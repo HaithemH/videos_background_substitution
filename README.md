@@ -82,7 +82,7 @@ Time/resource consumption is related to two points:
 5. To subtitute the background with **GrubCat** run: `python grubcutcombiner.py`.
 6. To extract moving objects/forground run: `python mo_subtractor.py`.
 ### Colab
-The colab notebook is ![here](https://github.com/HaithemH/videos_background_replacement/blob/master/config.json)
+The colab notebook is ['here'](https://github.com/HaithemH/videos_background_substitution/blob/master/Video_Background_Substitution.ipynb)
 ### Docker container
 
 
