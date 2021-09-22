@@ -91,7 +91,7 @@ The colab notebook is [here](https://github.com/HaithemH/videos_background_subst
     .- Build image :    $sudo docker build -t bgeditor . 
     .- Run the image :  $sudo docker run -it bgeditor
      **Cloud container on Colab**:
-     See the docker container section in the notebook [here](https://github.com/HaithemH/videos_background_substitution/blob/master/Video_Background_Substitution.ipynb)
+     See the docker container section in the notebook.
 
 ## Running Environment
 * Google Colab
