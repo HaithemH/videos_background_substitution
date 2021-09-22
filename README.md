@@ -75,14 +75,14 @@ Time/resource consumption is related to two points:
 
 ## 4. Usage
 ### Local 
-1. Make sure you have installed  all [required](https://github.com/HaithemH/videos_background_replacement/blob/master/requirements.txt) packages.
+1. Make sure you have installed  all ![required](https://github.com/HaithemH/videos_background_replacement/blob/master/requirements.txt) packages.
           run `pip install -r requirements.txt`.
 3. Go to scripts directory.
-4. Specify correct paths in [config](https://github.com/HaithemH/videos_background_replacement/blob/master/config.json) file.
+4. Specify correct paths in ![config](https://github.com/HaithemH/videos_background_replacement/blob/master/config.json) file.
 5. To subtitute the background with **GrubCat** run: `python grubcutcombiner.py`.
 6. To extract moving objects/forground run: `python mo_subtractor.py`.
 ### Colab
-
+The colab notebook is ![here](https://github.com/HaithemH/videos_background_replacement/blob/master/config.json)
 ### Docker container
 
 
