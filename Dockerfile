@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM python:3.8
 # LABEL about the custom image
 LABEL maintainer="hermessi.haithem@gmail.com"
 LABEL version="0.1"
